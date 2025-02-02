@@ -3,20 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assingment-3</title>
-    <!-- tailwind css -->
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Assignment-3</title>
+    <!-- style css code  -->
+     <link rel="stylesheet" href="style.css">
 
-    <!-- daisy UI -->
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- DaisyUI -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
       rel="stylesheet"
       type="text/css"
     />
 
-    <!-- google font -->
-
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,28 +25,137 @@
       rel="stylesheet"
     />
 
-    <!--  font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
+
   <body>
+    <!-- Header Section -->
+    <header class="bg-gradient-to-b from-white to-[#EFEBE3]">
+      <div class="navbar container mx-auto px-4">
+        <!-- Navbar Left: Logo & Mobile Menu -->
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <!-- Dropdown menu (Mobile) -->
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow"
+            >
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- Logo -->
+          <a href="#" class="btn btn-ghost">
+            <img class="w-[80px]" src="./assets/logo-header.png" alt="Logo" />
+          </a>
+        </div>
 
-    <!-- header section -->
-    <header>
+        <!-- Navbar Center (Desktop Menu) -->
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 space-x-6">
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
 
+        <!-- Navbar Right -->
+        <div class="navbar-end gap-4 flex">
+          <div><i class="fas fa-shopping-cart text-xl"></i></div>
+          <div><i class="fa-solid fa-magnifying-glass text-xl"></i></div>
+          <button class="btn btn-outline btn-accent">Login</button>
+          <button class="btn btn-success">Register</button>
+        </div>
+      </div>
+
+      <!-- Hero Section -->
+      <section class="container mx-auto px-4 text-center py-16">
+        <h1 class="lg:text-4xl text-2xl font-bold text-gray-800">
+          Freshness <span class="text-[#179800]">You Can <br> Count </span> On, Prices You’ll Love!
+        </h1>
+        <p class="py-6 lg:text-lg text-md text-gray-600 lg:w-1/2 mx-auto">
+          Shop your daily essentials at unbeatable prices. From fresh
+          produce to pantry staples, we’ve got you covered every day!
+        </p>
+        <div class="w-2/3 mx-auto">
+          <img src="./assets/hero-vegetables.png" alt="">
+        </div>
+      </section>
     </header>
 
-    <!-- main section -->
-
+    <!-- Main Section -->
     <main>
+      <section class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-[#179800] pb-6">Services</h2>
+        
+        <!-- Products Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="card bg-[#EFEBE3] shadow-lg p-4 text-center">
+            <img src="./assets/service.png" alt="Product" class=" w-[100px] h-[100px] rounded-full mx-auto bg-white p-3" />
+            <h3 class="text-lg font-semibold mt-4">24/7 Services </h3>
+            <p class="text-gray-600">A reliable product service ensures quality, support, efficiency, trust, innovation, warranty, maintenance, satisfaction, accessibility.</p>
+            <!-- <button class="btn btn-success mt-2">Add to Cart</button> -->
+          </div>
+  
+          <div class="card bg-[#EFEBE3] shadow-lg p-4 text-center">
+            <img src="./assets/delivery.png" alt="Product" class=" w-[100px] h-[100px] rounded-full mx-auto bg-white p-3" />
+            <h3 class="text-lg font-semibold mt-4">Fast Delivery</h3>
+            <p class="text-gray-600 text-center">Fast and reliable delivery ensures customer satisfaction by providing timely service. Efficient logistics, tracking, safety, and accuracy enhance the overall experience.</p>
+            <!-- <button class="btn btn-success mt-2">Add to Cart</button> -->
+          </div>
+  
+          <div class="card bg-[#EFEBE3] shadow-lg p-4 text-center">
+            <img src="./assets/healthy.png" alt="Product" class=" w-[100px] h-[100px] rounded-full mx-auto bg-white p-3" />
+            <h3 class="text-lg font-semibold mt-4">Healthy Products </h3>
+            <p class="text-gray-600">Health is essential for happiness, fitness, nutrition, exercise, wellness, prevention, care, balance, immunity, and longevity.</p>
+            <!-- <button class="btn btn-success mt-2">Add to Cart</button> -->
+          </div>
+        </div>
+      </section>
 
+      <!-- Popular Products section -->
+
+      <section class="container mx-auto px-4 ">
+        <div>
+          <h1>Popular Products</h1>
+          <div class="grid grid-col-2">
+            <div class="product"></div>
+            <div></div>
+          </div>
+        </div>
+
+      </section>
     </main>
 
-    <!--  footer section-->
-
-    <footer>
-
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2025 Your Company. All Rights Reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
