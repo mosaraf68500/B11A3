@@ -81,8 +81,8 @@
           </div>
     
           <!-- Login & Register Buttons -->
-          <button class="btn btn-outline btn-accent">Login</button>
-          <button class="btn btn-success">Register</button>
+          <button class="px-4 py-1 hover:bg-[#179800] text-lg font-semibold border border-[#179800] rounded-lg">Login</button>
+          <button class="bg-[#179800] text-white px-4 py-2 rounded-lg text-lg font- hover:bg-[#177800]">Register</button>
           
         </div>
 
@@ -98,7 +98,7 @@
         <h1 class="lg:text-4xl text-2xl font-bold text-gray-800">
           Freshness <span class="text-[#179800]">You Can <br> Count </span> On, Prices You’ll Love!
         </h1>
-        <p class="py-6 lg:text-lg text-md text-gray-600 lg:w-1/2 mx-auto">
+        <p class="py-6 lg:text-lg text-sm text-gray-600 lg:w-1/2 mx-auto">
           Shop your daily essentials at unbeatable prices. From fresh
           produce to pantry staples, we’ve got you covered every day!
         </p>
@@ -119,28 +119,28 @@
     <!-- Main Section -->
     <main class="mb-60">
       <section class="w-11/12 mx-auto px-4 py-16">
-        <h2 class="text-3xl font-bold text-[#179800] pb-6">Services</h2>
+        <h2 class=" text-2xl lg:text-4xl font-bold text-[#179800] pb-6">Services</h2>
         
         <!-- Products Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div class="card bg-[#EFEBE3] shadow-lg p-4 text-center">
             <img src="./assets/service.png" alt="Product" class=" w-[100px] h-[100px] rounded-full mx-auto bg-white p-3" />
-            <h3 class="text-lg font-semibold mt-4">24/7 Services </h3>
-            <p class="text-gray-600">A reliable product service ensures quality, support, efficiency, trust, innovation, warranty, maintenance, satisfaction, accessibility.</p>
+            <h3 class="lg:text-lg text-lg font-semibold mt-4">24/7 Services </h3>
+            <p class="text-gray-600 text-sm lg:text-lg">A reliable product service ensures quality, support, efficiency, trust, innovation, warranty, maintenance, satisfaction, accessibility.</p>
             <!-- <button class="btn btn-success mt-2">Add to Cart</button> -->
           </div>
   
           <div class="card bg-[#EFEBE3] shadow-lg p-4 text-center">
             <img src="./assets/delivery.png" alt="Product" class=" w-[100px] h-[100px] rounded-full mx-auto bg-white p-3" />
             <h3 class="text-lg font-semibold mt-4">Fast Delivery</h3>
-            <p class="text-gray-600 text-center">Fast and reliable delivery ensures customer satisfaction by providing timely service. Efficient logistics, tracking, safety, and accuracy enhance the overall experience.</p>
+            <p class="text-gray-600 text-center text-sm lg:text-lg">Fast and reliable delivery ensures customer satisfaction by providing timely service. Efficient logistics, tracking, safety, and accuracy enhance the overall experience.</p>
             <!-- <button class="btn btn-success mt-2">Add to Cart</button> -->
           </div>
   
           <div class="card bg-[#EFEBE3] shadow-lg p-4 text-center">
             <img src="./assets/healthy.png" alt="Product" class=" w-[100px] h-[100px] rounded-full mx-auto bg-white p-3" />
             <h3 class="text-lg font-semibold mt-4">Healthy Products </h3>
-            <p class="text-gray-600">Health is essential for happiness, fitness, nutrition, exercise, wellness, prevention, care, balance, immunity, and longevity.</p>
+            <p class="text-gray-600 text-sm lg:text-lg">Health is essential for happiness, fitness, nutrition, exercise, wellness, prevention, care, balance, immunity, and longevity.</p>
             <!-- <button class="btn btn-success mt-2">Add to Cart</button> -->
           </div>
         </div>
@@ -148,9 +148,9 @@
 
       <!-- Popular Products section -->
 
-      <section class=" bg-[#EFEBE3] py-16">
+      <section class=" bg-[#EFEBE3] py-8 lg:py-16">
         <div class="w-11/12 mx-auto px-4">
-          <h1 class="text-[#179800] font-bold text-2xl py-5">Popular Products</h1>
+          <h1 class="text-[#179800] font-bold text-2xl lg:text-4xl py-5">Popular Products</h1>
           <div class="grid  lg:grid-cols-3 gap-4">
             <!-- first div -->
             <div class=" lg:col-span-1 bg-gradient-to-b from-[#53db3a] to-[#d6f6d0]  rounded-lg">
@@ -335,9 +335,9 @@
 
       <!-- Arrival & Offers -->
 
-      <section class=" w-11/12 mx-auto px-4 py-16">
+      <section class=" w-11/12 mx-auto px-4 py-8 lg:py-16">
         <div class="py-6">
-          <h1 class="text-[#179800] font-semibold text-2xl pl-4">Arrival & Offers</h1>
+          <h1 class="text-[#179800] font-semibold lg:text-4xl text-2xl pl-4">Arrival & Offers</h1>
         </div>
         <div class="grid grid-cols-2 lg:grid-cols-5 gap-6 ">
          
@@ -378,7 +378,7 @@
 
     <footer class="relative bg-[#179800] text-[#EFEBE3] p-10 text-center md:text-left">
       <!-- Get Grocery News! -->
-      <section class="absolute left-1/2 transform -translate-x-1/2 bottom-28 w-11/12 mx-auto px-6 py-4 bg-[#EFEBE3] rounded-lg shadow-lg">
+      <div class="absolute  bottom-60 w-11/12 mx-auto px-6 py-4 bg-[#EFEBE3] rounded-lg shadow-lg">
         <div class="grid grid-cols-1 md:grid-cols-2 py-6 gap-6 items-center">
           <div class="flex justify-center">
             <img class="w-3/4" src="./assets/vegetable-busket.png" alt="Vegetable Basket">
@@ -386,13 +386,15 @@
           <div class="space-y-4 text-center md:text-left">
             <h1 class="text-[#111111] font-bold text-2xl">Get Grocery News!</h1>
             <p class="text-[#111111] text-md">Exclusive training tips, tricks, product deals, and more.</p>
-            <div class="flex flex-col md:flex-row gap-2 justify-center md:justify-start">
-              <input type="email" placeholder="Enter Email..." class="input input-bordered w-full md:w-4/6 p-2 rounded-md border border-gray-300" required>
-              <button class="text-[#FFFFFF] bg-[#179800] px-4 py-2 rounded-lg">Subscribe</button>
-            </div>
+           
+              <input type="email" placeholder="Enter Email..." class="input input-bordered w-9/12  py-4 rounded-md border border-gray-300" required> <br>
+              <div>
+                <button class="text-[#FFFFFF] bg-[#179800] px-4 py-2 rounded-lg">Subscribe</button>
+              </div>
+            
           </div>
         </div>
-      </section>
+      </div>
     
       <!-- Footer -->
       <div class="footer grid grid-cols-1 md:grid-cols-3 pt-64">
