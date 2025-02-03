@@ -1,5 +1,8 @@
-.product{
-    background: url('./assets/vegetable-offer.png'), #ffcc00;
-background-size: cover;
-background-position: center;
-}
+.product {
+    background: url('./assets/vegetable-offer.png'), #F9DF8A;
+    background-size: 100% 100%; /* 100% Width and 100% Height of the container */
+    background-position: center;
+    width: 100%; /* Width of the container */
+    height: 400px; /* Height of the container */
+  }
+  
