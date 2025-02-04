@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment-3</title>
     <!-- style css code  -->
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -35,112 +35,162 @@
     />
   </head>
 
-  <body>
+  <body class="sora">
     <!-- Header Section -->
     <header class="bg-gradient-to-b from-white to-[#EFEBE3]">
-      <div class="navbar w-11/12 mx-auto lg:px-4  flex items-center justify-between">
+      <div
+        class="navbar w-11/12 mx-auto lg:px-4 flex items-center justify-between"
+      >
         <!-- Logo (Left Side) -->
         <a href="#" class="btn btn-ghost">
-          <img  class="w-[100px] hidden lg:block" src="./assets/logo-header.png" alt="Logo" />
-          <img class="lg:hidden w-[50px]" src="./assets/Screenshot_4.png" alt="">
+          <img
+            class="w-[100px] hidden lg:block"
+            src="./assets/logo-header.png"
+            alt="Logo"
+          />
+          <img
+            class="lg:hidden w-[50px]"
+            src="./assets/Screenshot_4.png"
+            alt=""
+          />
         </a>
-    
+
         <!-- Mobile Menu (Right Side) -->
         <div class="lg:hidden">
           <div class="dropdown dropdown-end">
             <button tabindex="0" role="button" class="btn btn-ghost">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#179800]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-[#179800]"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
               </svg>
             </button>
             <!-- Dropdown menu -->
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 w-52 bg-white p-2 shadow rounded-box">
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 w-52 bg-white p-2 shadow rounded-box"
+            >
               <li><a href="#">Product</a></li>
               <li><a href="#">Services</a></li>
               <li><a href="#">Contact Us</a></li>
             </ul>
           </div>
         </div>
-    
+
         <!-- Desktop Menu & Extra Icons -->
-        <div class="hidden lg:flex items-center gap-6 	">
-          <ul class="menu menu-horizontal px-1 space-x-6 text-lg text-gray-800 font-semibold">
+        <div class="hidden lg:flex items-center gap-6">
+          <ul
+            class="menu menu-horizontal px-1 space-x-6 text-lg text-gray-800 font-semibold"
+          >
             <li><a href="#">Product</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact Us</a></li>
           </ul>
-    
+
           <!-- Search Icon -->
           <div>
             <i class="fa-solid fa-magnifying-glass text-xl text-gray-700"></i>
           </div>
-    
+
           <!-- Shopping Cart Icon -->
           <div>
             <i class="fa-solid fa-shopping-cart text-xl text-gray-700"></i>
           </div>
-    
-          <!-- Login & Register Buttons -->
-          <button class="px-4 py-1 hover:bg-[#179800] text-lg font-semibold border border-[#179800] rounded-lg">Login</button>
-          <button class="bg-[#179800] text-white px-4 py-2 rounded-lg text-lg font- hover:bg-[#177800]">Register</button>
-          
-        </div>
 
-       
-        
-      </div>
-      <div class=" border-b-2 border-[#179800]  lg:hidden">
-          
+          <!-- Login & Register Buttons -->
+          <button
+            class="px-4 py-1 hover:bg-[#179800] text-lg font-semibold border border-[#179800] rounded-lg"
+          >
+            Login
+          </button>
+          <button
+            class="bg-[#179800] text-white px-4 py-2 rounded-lg text-lg font- hover:bg-[#177800]"
+          >
+            Register
+          </button>
         </div>
-    
+      </div>
+      <div class="border-b-2 border-[#179800] lg:hidden"></div>
+
       <!-- Hero Section -->
       <section class="container mx-auto px-4 text-center py-16">
         <h1 class="lg:text-4xl text-2xl font-bold text-gray-800">
-          Freshness <span class="text-[#179800]">You Can <br> Count </span> On, Prices You’ll Love!
+          Freshness
+          <span class="text-[#179800]"
+            >You Can <br />
+            Count
+          </span>
+          On, Prices You’ll Love!
         </h1>
         <p class="py-6 lg:text-lg text-sm text-gray-600 lg:w-1/2 mx-auto">
-          Shop your daily essentials at unbeatable prices. From fresh
-          produce to pantry staples, we’ve got you covered every day!
+          Shop your daily essentials at unbeatable prices. From fresh produce to
+          pantry staples, we’ve got you covered every day!
         </p>
         <div class="w-2/3 mx-auto">
-          <img src="./assets/hero-vegetables.png" alt="Vegetables">
+          <img src="./assets/hero-vegetables.png" alt="Vegetables" />
         </div>
-
-        
-        
       </section>
     </header>
-    
-    
-    
-    
-    
 
     <!-- Main Section -->
     <main class="mb-60">
       <section class="w-11/12 mx-auto px-4 py-16">
-        <h2 class=" text-2xl lg:text-4xl font-bold text-[#179800] pb-6">Services</h2>
-        
+        <h2 class="text-2xl lg:text-4xl font-bold text-[#179800] pb-6">
+          Services
+        </h2>
+
         <!-- Products Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div class="card bg-[#EFEBE3] shadow-lg p-4 text-center">
-            <img src="./assets/service.png" alt="Product" class=" w-[100px] h-[100px] rounded-full mx-auto bg-white p-3" />
-            <h3 class="lg:text-lg text-lg font-semibold mt-4">24/7 Services </h3>
-            <p class="text-gray-600 text-sm lg:text-lg">A reliable product service ensures quality, support, efficiency, trust, innovation, warranty, maintenance, satisfaction, accessibility.</p>
+            <img
+              src="./assets/service.png"
+              alt="Product"
+              class="w-[100px] h-[100px] rounded-full mx-auto bg-white p-3"
+            />
+            <h3 class="lg:text-lg text-lg font-semibold mt-4">24/7 Services</h3>
+            <p class="text-gray-600 text-sm lg:text-lg">
+              A reliable product service ensures quality, support, efficiency,
+              trust, innovation, warranty, maintenance, satisfaction,
+              accessibility.
+            </p>
             <!-- <button class="btn btn-success mt-2">Add to Cart</button> -->
           </div>
-  
+
           <div class="card bg-[#EFEBE3] shadow-lg p-4 text-center">
-            <img src="./assets/delivery.png" alt="Product" class=" w-[100px] h-[100px] rounded-full mx-auto bg-white p-3" />
+            <img
+              src="./assets/delivery.png"
+              alt="Product"
+              class="w-[100px] h-[100px] rounded-full mx-auto bg-white p-3"
+            />
             <h3 class="text-lg font-semibold mt-4">Fast Delivery</h3>
-            <p class="text-gray-600 text-center text-sm lg:text-lg">Fast and reliable delivery ensures customer satisfaction by providing timely service. Efficient logistics, tracking, safety, and accuracy enhance the overall experience.</p>
+            <p class="text-gray-600 text-center text-sm lg:text-lg">
+              Fast and reliable delivery ensures customer satisfaction by
+              providing timely service. Efficient logistics, tracking, safety,
+              and accuracy enhance the overall experience.
+            </p>
             <!-- <button class="btn btn-success mt-2">Add to Cart</button> -->
           </div>
-  
+
           <div class="card bg-[#EFEBE3] shadow-lg p-4 text-center">
-            <img src="./assets/healthy.png" alt="Product" class=" w-[100px] h-[100px] rounded-full mx-auto bg-white p-3" />
-            <h3 class="text-lg font-semibold mt-4">Healthy Products </h3>
-            <p class="text-gray-600 text-sm lg:text-lg">Health is essential for happiness, fitness, nutrition, exercise, wellness, prevention, care, balance, immunity, and longevity.</p>
+            <img
+              src="./assets/healthy.png"
+              alt="Product"
+              class="w-[100px] h-[100px] rounded-full mx-auto bg-white p-3"
+            />
+            <h3 class="text-lg font-semibold mt-4">Healthy Products</h3>
+            <p class="text-gray-600 text-sm lg:text-lg">
+              Health is essential for happiness, fitness, nutrition, exercise,
+              wellness, prevention, care, balance, immunity, and longevity.
+            </p>
             <!-- <button class="btn btn-success mt-2">Add to Cart</button> -->
           </div>
         </div>
@@ -148,290 +198,567 @@
 
       <!-- Popular Products section -->
 
-      <section class=" bg-[#EFEBE3] py-8 lg:py-16">
+      <section class="bg-[#EFEBE3] py-8 lg:py-16">
         <div class="w-11/12 mx-auto px-4">
-          <h1 class="text-[#179800] font-bold text-2xl lg:text-4xl py-5">Popular Products</h1>
-          <div class="grid  lg:grid-cols-3 gap-4">
+          <h1 class="text-[#179800] font-bold text-2xl lg:text-4xl py-5">
+            Popular Products
+          </h1>
+          <div class="grid lg:grid-cols-3 gap-4">
             <!-- first div -->
-            <div class=" lg:col-span-1 bg-gradient-to-b from-[#53db3a] to-[#d6f6d0]  rounded-lg">
-              <div class="p-6  space-y-6">
-                <h2 class="text-white text-3xl font-bold pt-2">30% off</h2>
-                <p class="text-gray-600 text-md font-semibold">Discover a world of treats, toys, and <br>essentials handpicked for you.</p>
-               
+            <div
+              class="lg:col-span-1   bg-gradient-to-b from-[#53db3a] to-[#d6f6d0] rounded-lg"
+            >
+              <div class="p-6 space-y-6">
+                <h2 class="text-white lg:text-3xl text-xl font-bold pt-2">30% off</h2>
+                <p class="text-gray-600 text-xs lg:text-sm font-semibold">
+                  Discover a world of treats, toys, and <br />essentials
+                  handpicked for you.
+                </p>
               </div>
-            <div class="flex justify-between gap-4">
-              <div class="ml-6 border">
-                <button class="bg-white text-black px-2 py-1 font-semibold rounded">Buy Now</button>
-
+              <div class="flex  ">
+                <div class="ml-4 lg:ml-4 ">
+                  <button
+                    class="bg-white text-black px-2 py-1 text-xs  rounded"
+                  >
+                    Buy now
+                  </button>
+                </div>
+                <div class=" flex justify-end items-end ">
+                  <img
+                    class="w-10/12 "
+                    src="./assets/vegetable-offer.png"
+                    alt=""
+                  />
+                </div>
               </div>
-              <div  class="flex border items-end justify-end"><img class="w-10/12 h-10/12" src="./assets/vegetable-offer.png" alt="">
-              </div>
-            </div>
             </div>
 
             <!-- second div -->
             <div class="lg:col-span-2">
-             <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
-
-              <div class=" bg-white rounded-lg grid grid-cols-2 gap-2  justify-center items-center">
-                <div class=" p-2 lg:p-4">
-                  <img class="w-full h-full  rounded " src="./assets/Screenshot_1.png" alt="">
-                </div>
-                <div class="">
-
-                  <div class="flex gap-2 items-center lg:gap-4">
-                    <div><i class="fa-solid fa-star lg:text-sm text-xs text-[#FFC107]"></i></div>
-                    <div><h1 class="text-[#111111] text-xs lg:font-semibold lg:text-sm">4.5</h1></div>
+              <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+                <div
+                  class="bg-white rounded-lg grid grid-cols-2 gap-2 justify-center items-center"
+                >
+                  <div class="p-2 lg:p-4">
+                    <img
+                      class="w-full h-full rounded"
+                      src="./assets/Screenshot_1.png"
+                      alt=""
+                    />
                   </div>
+                  <div class="">
+                    <div class="flex gap-2 items-center lg:gap-4">
+                      <div>
+                        <i
+                          class="fa-solid fa-star lg:text-sm text-xs text-[#FFC107]"
+                        ></i>
+                      </div>
+                      <div>
+                        <h1
+                          class="text-[#111111] text-xs lg:font-semibold lg:text-sm"
+                        >
+                          4.5
+                        </h1>
+                      </div>
+                    </div>
 
-                  <h4 class="text-[#111111] text-xs font-semibold lg:font-bold lg:text-sm">Onion 1 KG</h4>
-                  <p class="text-[#111111] text-xs lg:text-sm lg:font-semibold">$39.99</p>
-                </div>
-
-              </div>
-
-              <div class=" bg-white rounded-lg grid grid-cols-2 gap-2 justify-center items-center">
-                <div class=" p-2 lg:p-4"><img class="w-full h-full  rounded " src="./assets/Screenshot_2.png" alt=""></div>
-                <div>
-
-                  <div class="flex gap-2 items-center lg:gap-4">
-                    <div><i class="fa-solid fa-star text-xs lg:text-sm text-[#FFC107]"></i></div>
-                    <div><h1 class="text-[#111111] text-xs lg:text-sm lg:font-semibold">4.5</h1></div>
+                    <h4
+                      class="text-[#111111] text-xs font-semibold lg:font-bold lg:text-sm"
+                    >
+                      Onion 1 KG
+                    </h4>
+                    <p
+                      class="text-[#111111] text-xs lg:text-sm lg:font-semibold"
+                    >
+                      $39.99
+                    </p>
                   </div>
-
-                  <h4 class="text-[#111111] text-xs lg:text-sm font-semibold lg:font-bold lg:text-md">Tomato 500g </h4>
-                  <p class="text-[#111111] lg:font-semibold lg:text-sm text-xs">$39.99</p>
                 </div>
 
-              </div>
-
-             <div class=" bg-white rounded-lg grid grid-cols-2 gap-2 justify-center items-center">
-                <div class=" p-2 lg:p-4"><img class="w-full h-full  rounded " src="./assets/Screenshot_3.png" alt=""></div>
-                <div>
-
-                  <div class="flex gap-2 items-center lg:gap-4">
-                    <div><i class="fa-solid fa-star text-xs lg:text-sm text-[#FFC107]"></i></div>
-                    <div><h1 class="text-[#111111] text-xs lg:text-sm lg:font-semibold">4.5</h1></div>
+                <div
+                  class="bg-white rounded-lg grid grid-cols-2 gap-2 justify-center items-center"
+                >
+                  <div class="p-2 lg:p-4">
+                    <img
+                      class="w-full h-full rounded"
+                      src="./assets/Screenshot_2.png"
+                      alt=""
+                    />
                   </div>
+                  <div>
+                    <div class="flex gap-2 items-center lg:gap-4">
+                      <div>
+                        <i
+                          class="fa-solid fa-star text-xs lg:text-sm text-[#FFC107]"
+                        ></i>
+                      </div>
+                      <div>
+                        <h1
+                          class="text-[#111111] text-xs lg:text-sm lg:font-semibold"
+                        >
+                          4.5
+                        </h1>
+                      </div>
+                    </div>
 
-                  <h4 class="text-[#111111] text-xs lg:text-sm font-semibold lg:font-bold lg:text-md">Potato 1 KG </h4>
-                  <p class="text-[#111111] lg:font-semibold lg:text-sm text-xs">$39.99</p>
-                </div>
-
-              </div>
-
-
-
-              <div class=" bg-white rounded-lg grid grid-cols-2 gap-2  justify-center items-center">
-                <div class=" p-2 lg:p-4">
-                  <img class="w-full h-full  rounded " src="./assets/Screenshot_1.png" alt="">
-                </div>
-                <div class="">
-
-                  <div class="flex gap-2 items-center lg:gap-4">
-                    <div><i class="fa-solid fa-star lg:text-sm text-xs text-[#FFC107]"></i></div>
-                    <div><h1 class="text-[#111111] text-xs lg:font-semibold lg:text-sm">4.5</h1></div>
+                    <h4
+                      class="text-[#111111] text-xs lg:text-sm font-semibold lg:font-bold lg:text-md"
+                    >
+                      Tomato 500g
+                    </h4>
+                    <p
+                      class="text-[#111111] lg:font-semibold lg:text-sm text-xs"
+                    >
+                      $39.99
+                    </p>
                   </div>
-
-                  <h4 class="text-[#111111] text-xs font-semibold lg:font-bold lg:text-sm">Onion 1 KG</h4>
-                  <p class="text-[#111111] text-xs lg:text-sm lg:font-semibold">$39.99</p>
                 </div>
 
-              </div>
-
-              <div class=" bg-white rounded-lg grid grid-cols-2 gap-2 justify-center items-center">
-                <div class=" p-2 lg:p-4"><img class="w-full h-full  rounded " src="./assets/Screenshot_2.png" alt=""></div>
-                <div>
-
-                  <div class="flex gap-2 items-center lg:gap-4">
-                    <div><i class="fa-solid fa-star text-xs lg:text-sm text-[#FFC107]"></i></div>
-                    <div><h1 class="text-[#111111] text-xs lg:text-sm lg:font-semibold">4.5</h1></div>
+                <div
+                  class="bg-white rounded-lg grid grid-cols-2 gap-2 justify-center items-center"
+                >
+                  <div class="p-2 lg:p-4">
+                    <img
+                      class="w-full h-full rounded"
+                      src="./assets/Screenshot_3.png"
+                      alt=""
+                    />
                   </div>
+                  <div>
+                    <div class="flex gap-2 items-center lg:gap-4">
+                      <div>
+                        <i
+                          class="fa-solid fa-star text-xs lg:text-sm text-[#FFC107]"
+                        ></i>
+                      </div>
+                      <div>
+                        <h1
+                          class="text-[#111111] text-xs lg:text-sm lg:font-semibold"
+                        >
+                          4.5
+                        </h1>
+                      </div>
+                    </div>
 
-                  <h4 class="text-[#111111] text-xs lg:text-sm font-semibold lg:font-bold lg:text-md">Tomato 500g </h4>
-                  <p class="text-[#111111] lg:font-semibold lg:text-sm text-xs">$39.99</p>
-                </div>
-
-              </div>
-
-             <div class=" bg-white rounded-lg grid grid-cols-2 gap-2 justify-center items-center">
-                <div class=" p-2 lg:p-4"><img class="w-full h-full  rounded " src="./assets/Screenshot_3.png" alt=""></div>
-                <div>
-
-                  <div class="flex gap-2 items-center lg:gap-4">
-                    <div><i class="fa-solid fa-star text-xs lg:text-sm text-[#FFC107]"></i></div>
-                    <div><h1 class="text-[#111111] text-xs lg:text-sm lg:font-semibold">4.5</h1></div>
+                    <h4
+                      class="text-[#111111] text-xs lg:text-sm font-semibold lg:font-bold lg:text-md"
+                    >
+                      Potato 1 KG
+                    </h4>
+                    <p
+                      class="text-[#111111] lg:font-semibold lg:text-sm text-xs"
+                    >
+                      $39.99
+                    </p>
                   </div>
-
-                  <h4 class="text-[#111111] text-xs lg:text-sm font-semibold lg:font-bold lg:text-md">Potato 1 KG </h4>
-                  <p class="text-[#111111] lg:font-semibold lg:text-sm text-xs">$39.99</p>
                 </div>
 
-              </div>
-
-
-
-
-              <div class=" bg-white rounded-lg grid grid-cols-2 gap-2  justify-center items-center">
-                <div class=" p-2 lg:p-4">
-                  <img class="w-full h-full  rounded " src="./assets/Screenshot_1.png" alt="">
-                </div>
-                <div class="">
-
-                  <div class="flex gap-2 items-center lg:gap-4">
-                    <div><i class="fa-solid fa-star lg:text-sm text-xs text-[#FFC107]"></i></div>
-                    <div><h1 class="text-[#111111] text-xs lg:font-semibold lg:text-sm">4.5</h1></div>
+                <div
+                  class="bg-white rounded-lg grid grid-cols-2 gap-2 justify-center items-center"
+                >
+                  <div class="p-2 lg:p-4">
+                    <img
+                      class="w-full h-full rounded"
+                      src="./assets/Screenshot_1.png"
+                      alt=""
+                    />
                   </div>
+                  <div class="">
+                    <div class="flex gap-2 items-center lg:gap-4">
+                      <div>
+                        <i
+                          class="fa-solid fa-star lg:text-sm text-xs text-[#FFC107]"
+                        ></i>
+                      </div>
+                      <div>
+                        <h1
+                          class="text-[#111111] text-xs lg:font-semibold lg:text-sm"
+                        >
+                          4.5
+                        </h1>
+                      </div>
+                    </div>
 
-                  <h4 class="text-[#111111] text-xs font-semibold lg:font-bold lg:text-sm">Onion 1 KG</h4>
-                  <p class="text-[#111111] text-xs lg:text-sm lg:font-semibold">$39.99</p>
-                </div>
-
-              </div>
-
-              <div class=" bg-white rounded-lg grid grid-cols-2 gap-2 justify-center items-center">
-                <div class=" p-2 lg:p-4"><img class="w-full h-full  rounded " src="./assets/Screenshot_2.png" alt=""></div>
-                <div>
-
-                  <div class="flex gap-2 items-center lg:gap-4">
-                    <div><i class="fa-solid fa-star text-xs lg:text-sm text-[#FFC107]"></i></div>
-                    <div><h1 class="text-[#111111] text-xs lg:text-sm lg:font-semibold">4.5</h1></div>
+                    <h4
+                      class="text-[#111111] text-xs font-semibold lg:font-bold lg:text-sm"
+                    >
+                      Onion 1 KG
+                    </h4>
+                    <p
+                      class="text-[#111111] text-xs lg:text-sm lg:font-semibold"
+                    >
+                      $39.99
+                    </p>
                   </div>
-
-                  <h4 class="text-[#111111] text-xs lg:text-sm font-semibold lg:font-bold lg:text-md">Tomato 500g </h4>
-                  <p class="text-[#111111] lg:font-semibold lg:text-sm text-xs">$39.99</p>
                 </div>
 
-              </div>
-
-             <div class=" bg-white rounded-lg grid grid-cols-2 gap-2 justify-center items-center">
-                <div class=" p-2 lg:p-4"><img class="w-full h-full  rounded " src="./assets/Screenshot_3.png" alt=""></div>
-                <div>
-
-                  <div class="flex gap-2 items-center lg:gap-4">
-                    <div><i class="fa-solid fa-star text-xs lg:text-sm text-[#FFC107]"></i></div>
-                    <div><h1 class="text-[#111111] text-xs lg:text-sm lg:font-semibold">4.5</h1></div>
+                <div
+                  class="bg-white rounded-lg grid grid-cols-2 gap-2 justify-center items-center"
+                >
+                  <div class="p-2 lg:p-4">
+                    <img
+                      class="w-full h-full rounded"
+                      src="./assets/Screenshot_2.png"
+                      alt=""
+                    />
                   </div>
+                  <div>
+                    <div class="flex gap-2 items-center lg:gap-4">
+                      <div>
+                        <i
+                          class="fa-solid fa-star text-xs lg:text-sm text-[#FFC107]"
+                        ></i>
+                      </div>
+                      <div>
+                        <h1
+                          class="text-[#111111] text-xs lg:text-sm lg:font-semibold"
+                        >
+                          4.5
+                        </h1>
+                      </div>
+                    </div>
 
-                  <h4 class="text-[#111111] text-xs lg:text-sm font-semibold lg:font-bold lg:text-md">Potato 1 KG </h4>
-                  <p class="text-[#111111] lg:font-semibold lg:text-sm text-xs">$39.99</p>
+                    <h4
+                      class="text-[#111111] text-xs lg:text-sm font-semibold lg:font-bold lg:text-md"
+                    >
+                      Tomato 500g
+                    </h4>
+                    <p
+                      class="text-[#111111] lg:font-semibold lg:text-sm text-xs"
+                    >
+                      $39.99
+                    </p>
+                  </div>
                 </div>
 
+                <div
+                  class="bg-white rounded-lg grid grid-cols-2 gap-2 justify-center items-center"
+                >
+                  <div class="p-2 lg:p-4">
+                    <img
+                      class="w-full h-full rounded"
+                      src="./assets/Screenshot_3.png"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <div class="flex gap-2 items-center lg:gap-4">
+                      <div>
+                        <i
+                          class="fa-solid fa-star text-xs lg:text-sm text-[#FFC107]"
+                        ></i>
+                      </div>
+                      <div>
+                        <h1
+                          class="text-[#111111] text-xs lg:text-sm lg:font-semibold"
+                        >
+                          4.5
+                        </h1>
+                      </div>
+                    </div>
+
+                    <h4
+                      class="text-[#111111] text-xs lg:text-sm font-semibold lg:font-bold lg:text-md"
+                    >
+                      Potato 1 KG
+                    </h4>
+                    <p
+                      class="text-[#111111] lg:font-semibold lg:text-sm text-xs"
+                    >
+                      $39.99
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="bg-white rounded-lg grid grid-cols-2 gap-2 justify-center items-center"
+                >
+                  <div class="p-2 lg:p-4">
+                    <img
+                      class="w-full h-full rounded"
+                      src="./assets/Screenshot_1.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="">
+                    <div class="flex gap-2 items-center lg:gap-4">
+                      <div>
+                        <i
+                          class="fa-solid fa-star lg:text-sm text-xs text-[#FFC107]"
+                        ></i>
+                      </div>
+                      <div>
+                        <h1
+                          class="text-[#111111] text-xs lg:font-semibold lg:text-sm"
+                        >
+                          4.5
+                        </h1>
+                      </div>
+                    </div>
+
+                    <h4
+                      class="text-[#111111] text-xs font-semibold lg:font-bold lg:text-sm"
+                    >
+                      Onion 1 KG
+                    </h4>
+                    <p
+                      class="text-[#111111] text-xs lg:text-sm lg:font-semibold"
+                    >
+                      $39.99
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="bg-white rounded-lg grid grid-cols-2 gap-2 justify-center items-center"
+                >
+                  <div class="p-2 lg:p-4">
+                    <img
+                      class="w-full h-full rounded"
+                      src="./assets/Screenshot_2.png"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <div class="flex gap-2 items-center lg:gap-4">
+                      <div>
+                        <i
+                          class="fa-solid fa-star text-xs lg:text-sm text-[#FFC107]"
+                        ></i>
+                      </div>
+                      <div>
+                        <h1
+                          class="text-[#111111] text-xs lg:text-sm lg:font-semibold"
+                        >
+                          4.5
+                        </h1>
+                      </div>
+                    </div>
+
+                    <h4
+                      class="text-[#111111] text-xs lg:text-sm font-semibold lg:font-bold lg:text-md"
+                    >
+                      Tomato 500g
+                    </h4>
+                    <p
+                      class="text-[#111111] lg:font-semibold lg:text-sm text-xs"
+                    >
+                      $39.99
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="bg-white rounded-lg grid grid-cols-2 gap-2 justify-center items-center"
+                >
+                  <div class="p-2 lg:p-4">
+                    <img
+                      class="w-full h-full rounded"
+                      src="./assets/Screenshot_3.png"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <div class="flex gap-2 items-center lg:gap-4">
+                      <div>
+                        <i
+                          class="fa-solid fa-star text-xs lg:text-sm text-[#FFC107]"
+                        ></i>
+                      </div>
+                      <div>
+                        <h1
+                          class="text-[#111111] text-xs lg:text-sm lg:font-semibold"
+                        >
+                          4.5
+                        </h1>
+                      </div>
+                    </div>
+
+                    <h4
+                      class="text-[#111111] text-xs lg:text-sm font-semibold lg:font-bold lg:text-md"
+                    >
+                      Potato 1 KG
+                    </h4>
+                    <p
+                      class="text-[#111111] lg:font-semibold lg:text-sm text-xs"
+                    >
+                      $39.99
+                    </p>
+                  </div>
+                </div>
               </div>
-
-
-              
-
-
-
-             </div>
-              
             </div>
           </div>
         </div>
-
       </section>
-      
 
       <!-- Arrival & Offers -->
 
-      <section class=" w-11/12 mx-auto px-4 py-8 lg:py-16">
+      <section class="w-11/12 mx-auto px-4 py-8 lg:py-16">
         <div class="py-6">
-          <h1 class="text-[#179800] font-semibold lg:text-4xl text-2xl pl-4">Arrival & Offers</h1>
+          <h1 class="text-[#179800] font-semibold lg:text-4xl text-2xl pl-4">
+            Arrival & Offers
+          </h1>
         </div>
-        <div class="grid grid-cols-2 lg:grid-cols-5 gap-6 ">
-         
-         <div class="col-span-3 bg-[#115414]  rounded-lg">
-          <div class="flex justify-between items-center">
-            <div class=" p-4 lg:p-6 space-y-6">
-              <img src="./assets/dawat-logo.png" class="border border-dashed  w-9/12 p-2" alt="">
-              <button class="bg-[#63B76D] text-white px-2 py-2 rounded-lg text-xs lg:text-lg">Cook Exotic Dishes</button>
-              <h1 class="font-bold text-lg lg:text-2xl text-white">UP to 20% OFF</h1>
-            </div>
-            <div class="pt-4">
-              <img src="./assets/dawat-mock-up.png" class="" alt="">
-
-            </div>
-          </div>
-         </div>
-
-
-
-         <div class="col-span-2 bg-[#102861]  rounded-lg">
-          <div class="flex justify-between">
-            <div class=" p-3 lg:p-4 space-y-5">
-              <img class="w-9/12" src="./assets/india-gate-logo.png" alt="">
-              <button class="bg-[#2A4D97] text-white px-2 py-2 rounded-lg text-xs lg:text-lg">World’s No.1 Rice</button>
-              <h1 class="font-bold text-lg lg:text-2xl text-white">UP to 40% OFF</h1>
-            </div>
-            <div class="pt-4 pr-2">
-              <img class=" w-full" src="./assets/india-gate-mock-up.png" alt="">
+        <div class="grid  grid-cols-1 lg:grid-cols-5 gap-6">
+          <div class="lg:col-span-3 bg-[#115414] rounded-lg">
+            <div class="flex justify-between items-center">
+              <div class="p-4 lg:p-6 space-y-6">
+                <img
+                  src="./assets/dawat-logo.png"
+                  class="border border-dashed w-9/12 p-2"
+                  alt=""
+                />
+                <button
+                  class="bg-[#63B76D] text-white px-2 py-2 rounded-lg text-xs lg:text-lg"
+                >
+                  Cook Exotic Dishes
+                </button>
+                <h1 class="font-bold text-lg lg:text-2xl text-white">
+                  UP to 20% OFF
+                </h1>
+              </div>
+              <div class="pt-4">
+                <img src="./assets/dawat-mock-up.png" class="" alt="" />
+              </div>
             </div>
           </div>
-         </div>
+
+          <div class="lg:col-span-2 w-full bg-[#102861] rounded-lg">
+            <div class="flex justify-between">
+              <div class="p-3 lg:p-4 space-y-5">
+                <img class="w-9/12" src="./assets/india-gate-logo.png" alt="" />
+                <button
+                  class="bg-[#2A4D97] text-white px-2 py-2 rounded-lg text-xs lg:text-lg"
+                >
+                  World’s No.1 Rice
+                </button>
+                <h1 class="font-bold text-lg lg:text-2xl text-white">
+                  UP to 40% OFF
+                </h1>
+              </div>
+              <div class="pt-4 pr-2">
+                <img
+                  class="w-full"
+                  src="./assets/india-gate-mock-up.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-      
     </main>
-
-    
-
-    <footer class="relative bg-[#179800] text-[#EFEBE3] p-10 text-center md:text-left">
+    <footer class=" relative bg-[#179800]  text-[#EFEBE3] p-4  md:p-10">
       <!-- Get Grocery News! -->
-      <div class="absolute  bottom-60 w-11/12 mx-auto px-6 py-4 bg-[#EFEBE3] rounded-lg shadow-lg">
-        <div class="grid grid-cols-1 md:grid-cols-2 py-6 gap-6 items-center">
-          <div class="flex justify-center">
-            <img class="w-3/4" src="./assets/vegetable-busket.png" alt="Vegetable Basket">
-          </div>
-          <div class="space-y-4 text-center md:text-left">
-            <h1 class="text-[#111111] font-bold text-2xl">Get Grocery News!</h1>
-            <p class="text-[#111111] text-md">Exclusive training tips, tricks, product deals, and more.</p>
-           
-              <input type="email" placeholder="Enter Email..." class="input input-bordered w-9/12  py-4 rounded-md border border-gray-300" required> <br>
-              <div>
-                <button class="text-[#FFFFFF] bg-[#179800] px-4 py-2 rounded-lg">Subscribe</button>
-              </div>
-            
+      <div
+        class="absolute lg:bottom-64 bottom-[450px]    md:w-11/12   bg-[#F5F0E8] rounded-xl shadow-lg p-6 md:p-8 flex flex-col md:flex-row items-center text-center md:text-left gap-4 md:gap-10"
+      >
+        <div class="w-3/4 md:w-1/3 mx-auto md:mx-0">
+          <img
+            class="w-full"
+            src="./assets/vegetable-busket.png"
+            alt="Vegetable Basket"
+          />
+        </div>
+        <div class="flex-1">
+          <h1 class="text-[#111111] font-bold text-xl md:text-2xl">
+            Get Grocery News!
+          </h1>
+          <p class="text-[#111111] text-sm md:text-md mb-4">
+            Exclusive training tips, tricks, product deals <i>and more</i>.
+          </p>
+          <div class="flex flex-col md:flex-row items-center gap-3">
+            <input
+              type="email"
+              placeholder="Enter email..."
+              class="input input-bordered w-full md:w-3/4 py-3 px-4 rounded-md border border-gray-300"
+              required
+            />
+            <button
+              class="text-white bg-[#179800] px-6 py-3 rounded-lg w-full md:w-auto"
+            >
+              Subscribe
+            </button>
           </div>
         </div>
       </div>
-    
-      <!-- Footer -->
-      <div class="footer grid grid-cols-1 md:grid-cols-3 pt-64">
-        <div>
-          <img class="mx-auto md:mx-0" src="./assets/logo-footer.png" alt="Nature's Platter Logo">
-          <p>Discover a world of treats, toys, and <br> essentials handpicked for your furry friends</p>
+
+      <!-- Footer Content -->
+      <div
+        class="w-full md:w-10/12 lg:pt-56 pt-[350px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 md:text-left "
+      >
+        <div class="">
+          <img
+            class="w-32  md:mx-0 mb-3"
+            src="./assets/logo-footer.png"
+            alt="Nature's Platter Logo"
+          />
+          <p>
+            Discover a world of treats, toys, and essentials handpicked for your
+            furry friends
+          </p>
         </div>
-        <nav>
-          <a href="#" class="link link-hover block">Products</a>
-          <a href="#" class="link link-hover block">Services</a>
-          <a href="#" class="link link-hover block">Contact us</a>
-        </nav>
-        <nav>
-          <h6 class="footer-title">Follow Us</h6>
-          <div class="flex justify-center md:justify-start gap-4">
-            <a href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
-                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+        <div>
+          <h6 class="font-semibold text-lg mb-2">Quick Links</h6>
+          <a href="#" class="block hover:text-gray-300">Product</a>
+          <a href="#" class="block hover:text-gray-300">Services</a>
+          <a href="#" class="block hover:text-gray-300">Contact us</a>
+        </div>
+        <div>
+          <h6 class="font-semibold text-lg mb-2">Follow Us</h6>
+          <div class="flex md:justify-start gap-4">
+            <a href="#" class="hover:text-gray-300">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current"
+              >
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                ></path>
               </svg>
             </a>
-            <a href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
-                <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+
+            <a href="#" class="hover:text-gray-300">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#" class="hover:text-gray-300">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current"
+              >
+                <path
+                  d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+                ></path>
               </svg>
             </a>
-            <a href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
-                <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+            <a href="#" class="hover:text-gray-300">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current"
+              >
+                <path
+                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+                ></path>
               </svg>
             </a>
           </div>
-        </nav>
+        </div>
       </div>
     </footer>
     
     
-
-   
+    
+    
+    
   </body>
 </html>
